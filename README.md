@@ -5,7 +5,8 @@ Autocrafter is a Python script that automates crafting repetitive tasks in minec
 # To use the program:
 ## Installation
 
-1. Download the newest release here: .
+1. Download the newest release here:
+  [Releases](https://github.com/Ramlov/minecraft-auto-crafter/releases)
 
 ## Usage
 

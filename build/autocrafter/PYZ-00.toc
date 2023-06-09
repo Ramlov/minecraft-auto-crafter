@@ -1,4 +1,4 @@
-('C:\\Users\\mathi\\Desktop\\Github\\minecraft\\build\\autocrafter\\PYZ-00.pyz',
+('C:\\Users\\mathi\\Desktop\\Github\\minecraft-auto-crafter\\build\\autocrafter\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\mathi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),

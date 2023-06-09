@@ -43,7 +43,7 @@ def save_cursor_location():
 
     print("Cursor locations saved to config.ini.")
 
-if input("Configure? (T/F)") == "T":
+if input("Configure? (Y/N)") == "Y":
     craft = input("What do you want to craft? ")
     stacks = input("How many stacks? (INT)")
     save_cursor_location()
@@ -74,13 +74,13 @@ while run_again:
     if first_run:
         first_run = False
         input("Set inventory up now! \n Ready (Write when ready)? ")
-        x_text, y_text = x_positions[0], y_positions[0]
+    x_text, y_text = x_positions[0], y_positions[0]
 
-        pyautogui.moveTo(x_text, y_text)
-        pyautogui.click()
+    pyautogui.moveTo(x_text, y_text)
+    pyautogui.click()
 
-        time.sleep(0.5)
-        pyautogui.typewrite(craft)
+    time.sleep(0.5)
+    pyautogui.typewrite(craft)
 
     def move_cursor():
         x_start, y_start = x_positions[1], y_positions[1]
@@ -112,5 +112,5 @@ while run_again:
     shift_thread.join()
 
     answer = input("Run again? (Y/N): ")
-    if answer.lower() not in ["y", "yes"]:
+    if answer.lower() not in ["y", "yes", "Y"]:
         run_again = False
